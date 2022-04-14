@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    }
+
+div {
+    border-radius: 10px;
+    background-color:lightgrey;
+    padding: 10px;
+    width: 98%;
+    margin-top: 15px;
+    margin-left:0px;  
+    display: inline-block;
+    text-align: center;
+    border-style: groove;        
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+}
+
+.vertical *{
+    vertical-align:middle;
+}
+
+input[type=text], input[type=password], input[type=date], select[id=offence], textarea[name="statement"]{
+    width: 400px;
+    padding: 8px 2px;
+    margin: 8px ;
+}
+
+input[type=submit]{
+    background-color: grey;
+    margin: 8px 7px;
+    padding: 8px 2px;
+    width: 400px;
+    display: inline-block;
+}
+
+#list td{
+    border: 50px;
+    padding: 5px;
+    text-align: left;
+    background-color: white;
+    width: 400px;
+  
+}
+
+#list th{
+    border: 50px;
+    padding: 5px;
+    text-align: left;
+    background-color: grey;
+    width: 400px;
+}
